@@ -1,0 +1,44 @@
+.btn-googleplayappstore {
+  width: 7rem;
+}
+
+.texto-titulo {
+  font-size: 90px;
+}
+
+.img-icons {
+  width: 6rem;
+  fill: rgb(176, 113, 235) !important ;
+}
+
+.texto-titulo2 {
+  font-size: 50px;
+  align-items: center;
+}
+
+.bg-img {
+  position: relative;
+  background-image: url(../img/pexels-cottonbro-studio-3585091.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.height100 {
+  height: 100vh;
+  width: 100%;
+}
+
+.padding20 {
+  padding: 20% 5% !important;
+}
